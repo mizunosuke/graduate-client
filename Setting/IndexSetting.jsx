@@ -1,6 +1,6 @@
 import { View, Text } from "react-native"
 
-export const IndexMeasure = () => {
+export const IndexSetting = () => {
   return (
     <View>
         <Text>あああ</Text>

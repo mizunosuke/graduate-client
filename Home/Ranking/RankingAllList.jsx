@@ -15,7 +15,7 @@ export const RankingAllList = () => {
 
   //DBから全ランキングを取ってくる
   const fetchAllRanking = () => {
-    axios.get("https://924f-125-195-62-96.jp.ngrok.io/api/rankings")
+    axios.get("https://642e-2404-7a87-660-1800-a8da-c941-b79b-3f97.jp.ngrok.io/api/rankings")
     .then((res) => {
       // console.log(res.data);
       setAllRanking(res.data);
